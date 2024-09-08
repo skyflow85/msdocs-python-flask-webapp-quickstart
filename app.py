@@ -12,9 +12,9 @@ def index():
    return render_template('index.html')
 
 @app.route('/karl')
-def index():
+def me():
    print('Request for index page received')
-   return "Hello this is cool"
+   return "Hello this is cossodddlsssss"
 
 @app.route('/favicon.ico')
 def favicon():
@@ -34,4 +34,6 @@ def hello():
 
 
 if __name__ == '__main__':
-   app.run()
+    app.run()
+    app.run(debug=True)
+
